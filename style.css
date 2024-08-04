@@ -69,6 +69,19 @@ p{
     html{
         font-size: 10px;
     }
+    #input{
+        width:25rem;
+        height:3.5rem;
+        font-size: 16px;
+    }
+    #submit{
+        height: 3.5rem;
+        width:7rem;
+        font-size: 14px;
+    }
+    p{
+        font-size: 1.4rem;
+    }
 }
 @media (max-width: 350px) {
     html{
