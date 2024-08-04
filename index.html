@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="flex items-center justify-between ">
+        <img id="logo" src="assets/logo.svg" class="pl-4 pt-4">
+       
+            <div>
+                <h1 class="text-5xl mt-8">Weather</h1>
+                <p id="time"></p>
+            </div>
+            <p class="text-3xl  border-b-4 border-white p-3" id="today">Today</p>
+        
+    </header>
+    <form class="city_ip mt-16 flex justify-center gap-4 ">
+        <input type="text" placeholder="Enter City" id="input" class="rounded text-lg pl-4 text-black">
+        <input type="submit" value="Submit" id="submit" class="text-black rounded font-semibold">
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
